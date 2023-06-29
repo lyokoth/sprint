@@ -10,7 +10,7 @@ This project aims to analyze the progression of sprinting times over the years, 
 
 
 ## Future Enhancements
--- Historical analysis: Extend the analysis to cover multiple years or historical data to observe long-term trends in sprinting times.
+# Historical analysis: Extend the analysis to cover multiple years or historical data to observe long-term trends in sprinting times.
 -- Statistical analysis: Conduct statistical tests and calculations to identify significant improvements and assess the significance of various factors influencing sprinting performance.
 -- Comparative analysis: Compare the performance of different countries, athletes, or age groups to identify patterns and outliers.
 -- Interactive dashboard: Develop an interactive dashboard or web application to allow users to explore the data and visualize the progression of sprinting times.

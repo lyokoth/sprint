@@ -74,3 +74,17 @@ df = pd.DataFrame(m_sprinters, columns=['rank', 'mark', 'wind', 'name', 'nat'])
 print(df)
 
 df.to_csv('100M_Male.csv', index=False)
+
+
+## connect to sqlite3 database
+
+import sqlite3
+
+conn = sqlite3.connect('sprinters.db')
+
+c = conn.cursor()
+
+df.to_sql('sprinters', conn, if_exists='replace', index = False)
+
+c.execute('''CREATE TABLE sprinters
+                ([rank] INTEGER PRIMARY KEY, [mark] text, [wind] text, [name] text, [nat] text)''')

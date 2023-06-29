@@ -1,2 +1,0 @@
-rank	mark	wind	name	nat
-93	10.13	0.0	Samuele CECCARELLI	ITA

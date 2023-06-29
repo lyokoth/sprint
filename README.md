@@ -1,7 +1,7 @@
-Project Description
+## Project Description
 This project aims to analyze the progression of sprinting times over the years, specifically focusing on the Outdoor 100 Meter Dash for men.  By extracting data from a specific webpage, the project creates a dataframe to enable detailed analysis and visualization of the collected sprinting records.
 
-Features
+## Features
 Web scraping: Utilizes the BeautifulSoup library to scrape data from a webpage containing sprinting records.
 Data extraction: Extracts relevant information such as rank, mark (time), wind, name, and nationality of the sprinters.
 DataFrame creation: Organizes the extracted data into a structured dataframe for further analysis.
@@ -12,7 +12,8 @@ Historical analysis: Extend the analysis to cover multiple years or historical d
 Statistical analysis: Conduct statistical tests and calculations to identify significant improvements and assess the significance of various factors influencing sprinting performance.
 Comparative analysis: Compare the performance of different countries, athletes, or age groups to identify patterns and outliers.
 Interactive dashboard: Develop an interactive dashboard or web application to allow users to explore the data and visualize the progression of sprinting times.
-Technologies Used
+
+## Technologies Used
 Python: Programming language used for data extraction, analysis, and visualization.
 BeautifulSoup: Library for web scraping and HTML parsing.
 Pandas: Library for data manipulation and analysis, including dataframe creation.

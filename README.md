@@ -28,6 +28,7 @@ By extracting data from the World Atheltics website using BeautifulSoup, the pro
 TODO: Add more sprinting events, such as  men's 200, and 400M dashes, as well as women's 100, 200, and 400M.
 
 
+## 100 M Men's
 
 To start the project, I gathered data from the World Athletics website for the men's 100 meter dash using BeautifulSoup and put them into a data frame.
 
@@ -35,6 +36,7 @@ To start the project, I gathered data from the World Athletics website for the m
 
 
 This graph represents the times ran, ranging from 9.83 to 10.13.
+
 
 
 ![times](https://github.com/lyokoth/Performance-progression-in-track-and-field-/assets/97857899/bece1bd0-74ef-4c91-b25a-5766d8437bac)
@@ -45,7 +47,11 @@ The second graph shows that tailwinds have a positive effect on time ran.
 
 ![sprint vs mark](https://github.com/lyokoth/Performance-progression-in-track-and-field-/assets/97857899/af2482ac-d224-4753-90b4-5a8ecdfa8780)
 
+## 200 M Data
 
+For the 200 meter men's, the fastest time recorded was 19.67 with + 0.3 wind aid. The slowest was 20.49 with +0.4 wind aid.
+
+There were 36 competitors from the USA.
 
 
 

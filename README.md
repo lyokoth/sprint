@@ -53,8 +53,9 @@ For the 200 meter men's, the fastest time recorded was 19.67 with + 0.3 wind aid
 
 There were 36 competitors from the USA.
 
+On the World Athletics website, the men are ranked based on their times, from ranks 1 - 90. 
 
-
+![]
 
 
 

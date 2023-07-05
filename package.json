@@ -1,0 +1,24 @@
+{
+  "name": "sprint",
+  "version": "1.0.0",
+  "description": "analyzing pro spinters' running times",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyokoth/Performance-progression-in-track-and-field-.git"
+  },
+  "keywords": [
+    "track",
+    "python",
+    "data-science"
+  ],
+  "author": "Lynette Okoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyokoth/Performance-progression-in-track-and-field-/issues"
+  },
+  "homepage": "https://github.com/lyokoth/Performance-progression-in-track-and-field-#readme"
+}

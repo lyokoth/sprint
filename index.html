@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <head>
+        <meta charset="utf-8" />
+        <title>Dashboard | Admin Panel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesdesign" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
+        <!--index-->
+        <link rel="stylesheet" href="/assets/css/index.css">
+        <!-- Bootstrap Css -->
+        <link href="{{ asset('assets/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{{ asset('assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/datatables.net-select-bs4/css//select.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/@chenfengyuan/datepicker/datepicker.min.css') }}" rel="stylesheet" type="text/css" />
+        </head>
+
+    <body data-sidebar="dark">
+            
+            <!-- Begin page -->
+            <div id="layout-wrapper">
+    
+                @include('layouts.header')
+    
+                <!-- ========== Left Sidebar Start ========== -->
+                @include('layouts.sidebar')
+                <!-- Left Sidebar End -->
+    
+                <!-- ============================================================== -->
+                <!-- Start right Content here -->
+                <!-- ============================================================== -->
+                <div class="main-content">
+    
+                    @yield('content')
+    
+                    <!-- Footer Start -->
+                    @include('layouts.footer')
+                    <!-- end Footer -->
+    
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Right content here -->
+                <!-- ============================================================== -->
+    
+            </div>
+            <!-- END layout-wrapper -->
+    
+            <!-- Right Sidebar -->
+            @include('layouts.right-sidebar')
+            <!-- /Right-bar -->
+    
+            <!-- Right bar overlay-->
+            <div class="rightbar-overlay"></div>
+    
+            <!-- JAVASCRIPT -->
+            <script src="{{ asset('assets/libs/jquery/jquery.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/metismenu/metisMenu.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/node-waves/waves.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/waypoints/lib/jquery.waypoints.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/jquery.counterup/jquery.counterup.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/peity/jquery.peity.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-buttons/js/buttons.html5.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-buttons/js/buttons.flash.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-buttons/js/buttons.print.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-keytable/js/dataTables.keyTable.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/datatables.net-select/js/dataTables.select.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/pdfmake/build/pdfmake.min.js') }}"></script>
+            <script src="{{ asset('assets/libs/pdfmake/build/vfs_fonts.js') }}"></script>
+            
+
+            <!-- apexcharts -->
+
+            <div id="chart"></div>
+
+
+            <script>
+                var options = {
+                    chart: {
+                        height: 350,
+                        type: 'line',
+                        zoom: {
+                            enabled: false
+                        },
+                        toolbar: {
+                            show: false
+                        }
+                    },
+                    series: [{
+                        name: '100M Dash - Male',
+                        data: [9.83, 9.84, 9.88, 9.89, 9.90, 10.01, 10.02, 10.03, 10.05]
+
+                    }],
+                    xaxis: {
+                        categories: ['2018', '2019', '2020', '2021', '2022', '2023']
+                    }
+                }
+                
+                var chart = new ApexCharts(document.querySelector("#chart"), options);
+                chart.render();
+            </script>
+            <!-- data -->
+            <div id="data-tables">
+                <script src="{{ asset('assets/js/pages/datatables.init.js') }}"></script>
+            <script src="{{ asset('assets/js/pages/dashboard.init.js') }}"></script>
+        </body>
+        <footer class="text-center">
+            <p>© 2023 - {{ date('Y') }} - - · Coded with  ❤️ by <a href="https://lynetteokoth.com/">Lyn Okoth</a> · Check out my <a href="https://github.com/lyokoth">Github!</a></p>
+            </footer>
+        </html>

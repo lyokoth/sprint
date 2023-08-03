@@ -25,7 +25,10 @@ By extracting data from the World Atheltics website using BeautifulSoup, the pro
 -- Matplotlib / Plotly: Libraries for data visualization and creating meaningful plots and charts.
  -- GitHub: Version control repository for collaborative development and project management.
 
-TODO: Add more sprinting events, such as  men's 200, and 400M dashes, as well as women's 100, 200, and 400M.
+TODO: Add  women's 100, 200, and 400M.
+- Create Dashboards for all events
+- Combine Dashboards into one .html file
+- 
 
 
 ## 100 M Men's

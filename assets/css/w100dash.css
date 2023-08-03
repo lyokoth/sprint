@@ -1,0 +1,14 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+.h1 {
+    text-align: center;
+
+}
+.p {
+    font-weight: bolder;
+}
+.body {
+    background-color: black;
+}
+

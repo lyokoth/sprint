@@ -1,4 +1,12 @@
 # Sprint 
+
+## Update 8/21/2023 
+
+- Re-created easy to read/follow Dashboards in Streamlit.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ## An Analysis on sprinting times in track and field
 
 > The goal of this project is to to analyze how sprinting times have improved over the years using progression and regression analysis
@@ -18,7 +26,7 @@ By extracting data from the World Atheltics website using BeautifulSoup, the pro
 
 
 ## Future Enhancements
-# Historical analysis: Extend the analysis to cover multiple years or historical data to observe long-term trends in sprinting times.
+- Historical analysis: Extend the analysis to cover multiple years or historical data to observe long-term trends in sprinting times.
 - Statistical analysis: Conduct statistical tests and calculations to identify significant improvements and assess the significance of various factors influencing sprinting performance.
 - Comparative analysis: Compare the performance of different countries, athletes, or age groups to identify patterns and outliers.
 - Interactive dashboard: Develop an interactive dashboard or web application to allow users to explore the data and visualize the progression of sprinting times.
@@ -30,6 +38,7 @@ By extracting data from the World Atheltics website using BeautifulSoup, the pro
  - Pandas: Library for data manipulation and analysis, including dataframe creation.
 - Matplotlib / Plotly: Libraries for data visualization and creating meaningful plots and charts.
  - GitHub: Version control repository for collaborative development and project management.
+ - Streamlit: To display dashboards and other data frames.
 
 TODO: 
 - Add  women's 100, 200, and 400M.
@@ -60,7 +69,7 @@ The second graph shows that tailwinds have a positive effect on time ran.
 
 I then created a Dashboard in plotly that shows the athlete's names, time ran, and wind. The two Y axis represent the time ran and the wind aid if there was any. 
 
-![100m dash mens](https://github.com/lyokoth/Performance-progression-in-track-and-field-/blob/master/Images/100m%20dash%20mens.png)
+![100m dash mens]()
 ## 200 M Data
 
 For the 200 meter men's, the fastest time recorded was 19.67 with + 0.3 wind aid. The slowest was 20.49 with +0.4 wind aid.

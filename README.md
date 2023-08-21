@@ -69,7 +69,7 @@ The second graph shows that tailwinds have a positive effect on time ran.
 
 I then created a Dashboard in plotly that shows the athlete's names, time ran, and wind. The two Y axis represent the time ran and the wind aid if there was any. 
 
-![100m dash mens]()
+![100m dash mens](https://github.com/lyokoth/sprint/blob/master/Images/100M%20dashboard%20stream.gif)
 ## 200 M Data
 
 For the 200 meter men's, the fastest time recorded was 19.67 with + 0.3 wind aid. The slowest was 20.49 with +0.4 wind aid.
